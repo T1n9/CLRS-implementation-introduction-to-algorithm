@@ -1,0 +1,4 @@
+worst case of randomized select:
+running time O(n^2)
+
+expected: O(n)

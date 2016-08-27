@@ -1,0 +1,7 @@
+the running time of heap sort is nlg(n)
+
+in-place algorithm: you only need fixed size of extra storage besides the input and output array for the sorting
+
+in most cases it depend on the implementation. For example, merge sort is considered as non-in-place sort, but a implementation of
+merg-sort as in-place is also possible.
+http://www.codeproject.com/Articles/26048/Fastest-In-Place-Stable-Sort

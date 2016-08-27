@@ -1,0 +1,12 @@
+the lower bound of comparison sort is nlg(n), so no algorithm based on comparison could be faster.
+
+the running time of counting sort is: (k+n). k means the max value of the array
+
+running time of radix sort: (d*(n+k))
+d: the digits 
+n: the possibles value for every digit (e.g. from 0 to 9)
+the sort method of each digit must be stable
+
+bucket sort: running time is (n)
+
+

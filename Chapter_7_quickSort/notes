@@ -1,0 +1,15 @@
+for quick sort:
+expected running time: nlg(n)   (hidden the constant factor for this running time is very small)
+worst case: n^2
+
+1.
+if the array is divided balancedly, the running time is close to the case of merge sort.
+if the tree is unbalanced, it is close to the insert sort. (e.g. is is already sorted, and each time we pick the last one, the array
+is divided into a very unbalanced tree)
+
+2. 
+if the cutting radio is constant, (not necessary 0.5), the running time is nlg(n).
+if good cutting radio and bad cutting radio come up in a random order, the running time is nlg(n)
+
+3. 
+randomized qSort: randomly pick a pivot
