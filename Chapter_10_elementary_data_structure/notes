@@ -1,1 +1,4 @@
 stack, queue
+
+
+I didn't build the stack with queue, but it is the same logic as in the queueWithStack.cpp
