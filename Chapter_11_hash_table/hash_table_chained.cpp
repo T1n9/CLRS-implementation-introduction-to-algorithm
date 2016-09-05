@@ -47,6 +47,7 @@ void hash_table::insert(const element & element_to_add)
         elem[result]->push_back(element_to_add);
 
 }
+//this can be replaced by multiplication method and universal method
 int hash_table::hash_value(const int& keyValue){    return keyValue%10;    }
 void hash_table::show_table()
 {
