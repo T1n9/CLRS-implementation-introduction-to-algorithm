@@ -1,1 +1,17 @@
-files for c11
+similar to array but more flexible
+
+collision resolution by chaining:
+all elements that are in collision will be stored in a lists. 
+worst case: if all elements are in collision, to search specifil element o(n) time will be needed.
+average case: time for searching an element equals o(1+a)  (a: load factor)
+in average case, if the number of slots is proportional to the number of the elements, n=o(m). a=o(1), so the searching time will be o(n)
+
+hash function:
+division, multiplication, universal hashing.
+
+open addressing:
+load factor <= 1
+one element in one slot, no lists necessary
+3 different probing method
+the successful/unsuccessful probing number depends on the load factor
+
