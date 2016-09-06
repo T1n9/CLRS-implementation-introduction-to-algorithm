@@ -1,3 +1,5 @@
+// I am not sure what should be the being searched information, but if the information/key is desired to be searched, it can 
+//be modified very easily
 #include<iostream>
 
 typedef int key_type;
