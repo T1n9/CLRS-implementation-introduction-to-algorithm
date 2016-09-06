@@ -15,3 +15,4 @@ one element in one slot, no lists necessary
 3 different probing method
 the successful/unsuccessful probing number depends on the load factor
 
+if the set of the keys is static, perfect hasing is able to provide a o(1) search time
