@@ -1,0 +1,11 @@
+worst case for search: o(n). just like a list if the tree is very unbalanced
+best case: lg(n). 
+
+average case is more close to the best case
+
+search, minimun, successor, predecessor, insert and delete have the running time o(h).
+h: height of the tree
+
+to insert/delete we have to traverse the tree and edit the the node and node pointer, then we should traverse the tree with node** 
+(the pointer of the node pointer).
+it is also possible to do that in anothe way, that is traverse the tree recursively.
