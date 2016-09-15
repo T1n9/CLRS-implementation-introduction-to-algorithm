@@ -3,8 +3,7 @@ If the binary tree is unbalanced, the bi_tree becomes very inefficient. For exam
 red-black tree is such a binary tree which can maintain its own balance.
 5 properties should be met if a bi_tree is red-black tree.(just try to check up wiki page...)
 
-it can be proven that the red-black tree with n elements has a max height of 2lg(n+1), which means all operations of red-black tree can be 
-finished with O(lgn)
+it can be proven that the red-black tree with n elements has a max height of 2lg(n+1), which means all operations of red-black tree can be finished with O(lgn)
 
 The insert and delete of red-black tree are the same as that of normal binary tree. But these insert/delete action could turn the red-black
 tree into a non-red-black tree. So after a normal insert/delete a fix up should be executed to maintain the red-black-ness of the tree.
