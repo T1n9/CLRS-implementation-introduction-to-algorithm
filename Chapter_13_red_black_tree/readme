@@ -9,3 +9,12 @@ can be finished with O(lgn)
 The insert and delete of red-black tree are the same as that of normal binary tree. But these insert/delete action could turn the 
 red-black tree into a non-red-black tree. So after a normal insert/delete a fix up should be executed to maintain the 
 red-black-ness of the tree.
+
+
+One problem with this code: I only have one NIL for the whole rb_tree. So in the delete part, in the double-black situation if we delete
+one black node whoes parent is black, the child of this node is actually NIL. To run the further program recursively, we have to set
+this NIL as the variable for the further functions. In further programs we will have to track NIL's father and brother: remember, we 
+only have one NIL. 
+I am not sure what could happen in this case, it seems the delete works very normaly, but the verify function shows that the tree is 
+not a r_b tree anymore. Even the color it printed is correct? At this point, I am bit tired and want to read further part of the book
+ and I think this mistake is not that important anyway...
