@@ -411,6 +411,7 @@ void rb_tree::rb_insert_fix(node* pNode)
 
 void rb_tree::verify_rb()
 {
+    vector<int>().swap(black_no);
     save_route();
     if(path[0]!=1)
     {
