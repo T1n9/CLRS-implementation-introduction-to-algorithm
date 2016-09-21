@@ -1,1 +1,10 @@
-i'll finish it later
+in chapter 9, it has been discussed that the rank of an element in a array can be determined within o(n). If This array 
+is stored in a red-black-tree, we can make it to o(lgn).
+Similarly, we can find the element of a given rank in a array with the time cost o(lgn)
+
+augmenting a red-black-tree:
+Let f be an attribute that augments a red-black tree T of n nodes, and suppose that
+the value of f for each node x depends on only the information in nodes x, x:left,
+and x:right, possibly including x:left:f and x:right:f . Then, we can maintain the
+values of f in all nodes of T during insertion and deletion without asymptotically
+affecting the O.lg n/ performance of these operations.
