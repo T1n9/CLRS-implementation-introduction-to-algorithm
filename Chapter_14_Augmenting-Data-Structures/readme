@@ -7,4 +7,4 @@ Let f be an attribute that augments a red-black tree T of n nodes, and suppose t
 the value of f for each node x depends on only the information in nodes x, x:left,
 and x:right, possibly including x:left:f and x:right:f . Then, we can maintain the
 values of f in all nodes of T during insertion and deletion without asymptotically
-affecting the O.lg n/ performance of these operations.
+affecting the O(lgn) performance of these operations.
