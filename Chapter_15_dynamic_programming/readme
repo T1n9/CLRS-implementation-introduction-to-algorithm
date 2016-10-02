@@ -3,3 +3,12 @@ be avoided at all cost.
 In dynamic programming the result of the solved problems will be saved, so in further calculation these results will be directly read
 but not calculated again. This is called time-memory trade off. We use some extra space and try to save time from it. This trade off
 can reduce the running time from exponential to polynomial, which is very benificial for us.
+
+Optimal substructure:
+1. substructures should be independent, which means the solution of one substructure should not affect the solution of 
+another substructure.
+2. it is eligible if the the recursive algorithm for the problem solves the same subproblems over and over, rather than always 
+generating new subproblems. 
+
+normally we can also do it from upside down with resursion with memoization. The running time will be polynomial. But it will be 
+still slightly slower than from bottom up due to the recursive cost and less cost of maintaining the table.
