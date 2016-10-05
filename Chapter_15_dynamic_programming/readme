@@ -1,8 +1,8 @@
-Some problems have very inefficient running time if solved in a regular way. They might have exponential running time, 
-which should be avoided at all cost.
-In dynamic programming the result of the solved problems will be saved, so in further calculation these results will be directly read
+Some problems have exponential running time if we try to solve them with normal rescursion.
+
+In dynamic programming the result of the solved subproblems will be saved, so in further calculation these results will be directly read
 but not calculated again. This is called time-memory trade off. We use some extra space and try to save time from it. This trade off
-can reduce the running time from exponential to polynomial, which is very benificial for us.
+can reduce the running time from exponential to polynomial.
 
 Optimal substructure:
 1. substructures should be independent, which means the solution of one substructure should not affect the solution of 
