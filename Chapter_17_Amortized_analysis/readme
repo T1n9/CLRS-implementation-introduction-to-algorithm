@@ -1,0 +1,5 @@
+This chapter discussed mathematical method of analysis for running cost of algorithms.
+
+Three methods are disscussed in this chapter: aggregate analysis, the accounting method and the potential method.
+
+No implementation is written for this chapter cause there's nothing to implement.
